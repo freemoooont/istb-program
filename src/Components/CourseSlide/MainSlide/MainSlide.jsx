@@ -36,7 +36,7 @@ function MainSlide({courseNumber, program}){
                 <span className="text--lesson">Изучаем математику</span>
             </div>
 
-            <button class="btn--all--lessons">Просмотреть все предметы</button>
+            <button className="btn--all--lessons">Просмотреть все предметы</button>
 
         </div>
         </>

@@ -5,7 +5,9 @@ import Page from "./page/Page";
 import {useDispatch} from "react-redux";
 
 function App() {
+
     const dispatch = useDispatch();
+
     const fetchData = (programName) => {
         dispatch(fetchProgram(programName))
     }

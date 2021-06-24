@@ -9,7 +9,7 @@ function Page({stateHandler}){
     }, [])
 
     const items = useSelector(({program})=> program.schedule);
-    console.log(items);
+
     return(
         <>
             <div className="App">

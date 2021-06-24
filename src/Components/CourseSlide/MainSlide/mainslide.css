@@ -1,0 +1,52 @@
+.course--number
+{
+    margin-top: 30px;
+}
+
+.first--block
+{
+    margin-top: 30px;
+}
+
+.other--block
+{
+    margin-top: 15px;
+}
+
+.img
+{
+    margin-right: 15px;
+}
+
+.text--lesson
+{
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #333333;
+}
+
+.btn--all--lessons
+{
+    position: absolute;
+    width: 280px;
+    height: 35px;
+    left: 20px;
+    top: 324px;
+
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 25px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #333333;
+}

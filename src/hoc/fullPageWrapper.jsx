@@ -1,5 +1,4 @@
 import React from 'react';
-import "fullpage.js/vendors/scrolloverflow";
 import ReactFullpage from "@fullpage/react-fullpage";
 
 export const FullPageWrapper = (props) => {
@@ -9,8 +8,10 @@ export const FullPageWrapper = (props) => {
         <ReactFullpage
             licenseKey='16EA2485-DD0F42BB-8ECA24E3-17346540'
             anchors={anchors}
-            navigation
-            navigationTooltips={anchors}
+            controlArrows={false}
+            slidesNavigation={'top'}
+            dragAndMove
+            // navigationTooltips={anchors}
             verticalCentered={false}
             sectionsColor={["#F8F8F8","#F8F8F8","#F8F8F8","#F8F8F8","#F8F8F8"]}
             onLeave={(origin, destination, direction) => {

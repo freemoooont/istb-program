@@ -1,0 +1,44 @@
+.welcome--slide{
+    pointer-events: none;
+}
+
+.welcome--header{
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 29px 24px;
+    background-color: #FFFFFF;
+}
+
+.button__wrapper{
+    background: #FFFFFF;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    width: 100%;
+    padding: .2vw 2vw .2vw 5vw;
+    margin: 2vw 0;
+    border-radius: 8vw;
+}
+
+.button--text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.button--text img{
+    margin: 0 2vw 0 auto;
+}
+.welcome--content{
+    padding: 5vw;
+}

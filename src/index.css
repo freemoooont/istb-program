@@ -1,0 +1,17 @@
+@font-face {
+  font-family: Montserrat;
+  src: local('Montserrat'), url(fonts/Montserrat-Medium.woff2) format('woff');
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

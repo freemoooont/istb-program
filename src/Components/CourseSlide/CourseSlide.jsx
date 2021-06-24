@@ -4,7 +4,9 @@ import RightSlide from "./RightSlide/RightSlide";
 
 function CourseSlide(props){
     console.log('Develop branch');
+
     return(
+        <>
         <section className="section course--slide">
             <div className="slide">
                 <MainSlide {...props}/>
@@ -13,7 +15,16 @@ function CourseSlide(props){
                 <RightSlide {...props}/>
             </div>
 
+        <div className="container">
+        <button class="chart--lessons">Просмотреть все предметы</button>
+        </div>
+
+            
         </section>
+
+        
+
+        </>
     )
 }
 

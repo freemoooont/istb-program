@@ -1,6 +1,7 @@
 import React from 'react';
 import MainSlide from "./MainSlide/MainSlide";
 import RightSlide from "./RightSlide/RightSlide";
+import TwoRightSlide from "./TwoRightSlide/TwoRightSlide";
 
 function CourseSlide(props){
     return(
@@ -11,6 +12,9 @@ function CourseSlide(props){
                 </div>
                 <div className="slide">
                     <RightSlide {...props}/>
+                </div>
+                <div className="slide">
+                    <TwoRightSlide {...props}/>
                 </div>
                 {/*<div className="container">*/}
                 {/*    <button className="chart--lessons">Просмотреть все предметы</button>*/}

@@ -13,14 +13,16 @@ function HomeGameSlide() {
     return (
         <>
             <div className="home-wrapper h-100">
-                
-                <img style={{position: 'absolute', bottom: 0, width: '101%', height: '101%', objectFit: 'cover'}} src={all} alt="" />
+                <img style={{position: 'absolute', bottom: 0, width: '101%', height: '101%', objectFit: 'cover', zIndex: 0, backgroundColor: "#84CDCA"}} src={all}  />
                 {/* <img style={{position: 'absolute', left: 0, height: '100%'}} src={left} alt="" />
                 <img style={{position: 'absolute', right: 0 , height: '100%'}} src={right} alt="" /> */}
-                <header className="welcome--header">
-                    <img src={logo} alt="" className="welcome--logo" />
-                    <img src={burger} alt="" className="welcome--burger" />
-                </header>
+                <div className="wrapper">
+                    <header className="welcome--header">
+                        <img src={logo} alt="" className="welcome--logo" />
+                        <img src={burger} alt="" className="welcome--burger" />
+                    </header>
+                    <div>Test</div>
+                </div>
             </div>
         </>
     )

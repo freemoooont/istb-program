@@ -3,9 +3,13 @@ import './tworightslide.css';
 
 function TwoRightSlide(){
     return(
-        <h2>
-            Пацанский график 2
-        </h2>
+        <>
+            <div className="wrapper">
+                <h2>
+                    Пацанский график 2 
+                </h2>
+            </div>
+        </>
     )
 }
 

@@ -16,9 +16,6 @@ function CourseSlide(props){
                 <div className="slide">
                     <TwoRightSlide {...props}/>
                 </div>
-                {/*<div className="container">*/}
-                {/*    <button className="chart--lessons">Просмотреть все предметы</button>*/}
-                {/*</div>*/}
             </section>
         </>
     )

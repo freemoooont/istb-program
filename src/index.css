@@ -19,3 +19,7 @@ code {
 .wrapper {
   position: relative;
 }
+
+.fp-slidesNav {
+  text-align: center;
+}

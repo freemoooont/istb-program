@@ -1,6 +1,6 @@
 import React from 'react';
 import {FullPageWrapper} from "../hoc/fullPageWrapper";
-import {HomeGame, CourseSlide} from "../Components";
+import {HomeGame, CourseSlide, FooterSlide} from "../Components";
 import {useSelector} from "react-redux";
 
 function Page({stateHandler}){
@@ -22,6 +22,7 @@ function Page({stateHandler}){
                                 {...obj}
                             />
                         ))}
+                    <FooterSlide/>
                 </FullPageWrapper>
             </div>
         </>

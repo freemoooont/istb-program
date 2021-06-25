@@ -5,7 +5,7 @@ import "./mainslide.css";
 
 
 function MainSlide({courseNumber, program}){
-
+    console.log('Изменил в dev')
     return(
         <>
             <div className="wrapper container">

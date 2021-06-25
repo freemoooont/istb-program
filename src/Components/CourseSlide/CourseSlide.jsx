@@ -13,13 +13,7 @@ function CourseSlide(props){
             </div>
             <div className="slide">
                 <RightSlide {...props}/>
-            </div>
-
-        <div className="container">
-        <button class="chart--lessons">Просмотреть все предметы</button>
-        </div>
-
-            
+            </div>           
         </section>
 
         

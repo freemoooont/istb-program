@@ -25,7 +25,6 @@ function MainSlide({courseNumber, program}) {
             name
         })
     })
-    console.log(data);
 
     const option = {
         series: [
@@ -56,57 +55,30 @@ function MainSlide({courseNumber, program}) {
 
     return (
         <>
-        <div className="wrapper container">
-            <div className="course--number">
-                <h1>
-                    {courseNumber} курс
+            <div className="wrapper container">
+                <div className="course--number">
+                    <h1>
+                        {courseNumber} курс
                     </h1>
                 </div>
-
-             <div className="row align-items-center row--legend">
-                 <div className="col-auto">
-                    <div className="item--legend"/>
-                 </div>
-                 <div className="col ps-0 text--legend">
-                 Гуманитарные науки
-                 </div>
-             </div>
-
-             <div className="row align-items-center row--legend">
-                 <div className="col-auto">
-                    <div className="item--legend"/>
-                 </div>
-                 <div className="col ps-0 text--legend">
-                 Гуманитарные науки
-                 </div>
-             </div>
-
-             <div className="row align-items-center row--legend">
-                 <div className="col-auto">
-                    <div className="item--legend"/>
-                 </div>
-                 <div className="col ps-0 text--legend">
-                 Гуманитарные науки
-                 </div>
-             </div>
-
-             <div className="row align-items-center row--legend">
-                 <div className="col-auto">
-                    <div className="item--legend"/>
-                 </div>
-                 <div className="col ps-0 text--legend">
-                 Гуманитарные науки
-                 </div>
-             </div>
-
+                {categoriesName.map(
+                    (name) =>
+                        <div className="row align-items-center row--legend">
+                            <div className="col-auto">
+                                <div style={{background: COLORS_MAP[name]}} className="item--legend"/>
+                            </div>
+                            <div className="col ps-0 text--legend">
+                                {name}
+                            </div>
+                        </div>
+                )}
             </div>
             <div className="chart">
                 <ReactECharts
                     option={option}
                 />
             </div>
-    </>
-
+        </>
     )
 }
 

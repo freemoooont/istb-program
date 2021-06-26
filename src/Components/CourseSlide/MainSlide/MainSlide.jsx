@@ -3,6 +3,14 @@ import "./mainslide.css";
 import ReactECharts from 'echarts-for-react';
 import _ from "lodash";
 
+const COLORS_MAP = {
+    "Математика" : "#5470c6",
+    "Гуманитарные науки" : "#91cc75",
+    "Общая подготовка" : "#fac858",
+    "АйТи" : "#ee6666",
+    "Практика" : "#73c0de"
+}
+
 function MainSlide({courseNumber, program}) {
     const [arr1, arr2] = program.map(obj => obj.items);
 
@@ -12,6 +20,7 @@ function MainSlide({courseNumber, program}) {
 
     const data = categoriesName.map((name) => {
         return ({
+            itemStyle: {color: COLORS_MAP[name]},
             value: categoryWithCount[name],
             name
         })

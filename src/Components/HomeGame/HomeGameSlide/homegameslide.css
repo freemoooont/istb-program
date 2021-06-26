@@ -1,7 +1,3 @@
-.welcome--slide{
-    pointer-events: none;
-}
-
 .container.container--header
 {
     padding-left: 21px;
@@ -53,4 +49,12 @@
 {
     width: 50px;
     height: 50px;
+}
+
+.welcome--menu__test{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #859ADE;
+    z-index: 1;
 }

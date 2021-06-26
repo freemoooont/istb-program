@@ -15,27 +15,42 @@ function MainSlide({courseNumber, program}){
                     </h1>
                 </div>
 
-                <div className="first--block">
-                    <span><img src={hashtag} alt="" className="img" /></span>
-                    <span className="text--lesson">Кодим на C++</span>
-                </div>
+             <div className="row align-items-center row--legend">
+                 <div className="col-auto">
+                    <div className="item--legend"></div>
+                 </div>
+                 <div className="col ps-0 text--legend">
+                 Гуманитарные науки
+                 </div>
+             </div> 
 
-                <div className="other--block">
-                    <span><img src={calculator} alt="" className="img" /></span>
-                    <span className="text--lesson">Изучаем математику</span>
-                </div>
+             <div className="row align-items-center row--legend">
+                 <div className="col-auto">
+                    <div className="item--legend"></div>
+                 </div>
+                 <div className="col ps-0 text--legend">
+                 Гуманитарные науки
+                 </div>
+             </div> 
 
-                <div className="other--block">
-                    <span><img src={hashtag} alt="" className="img" /></span>
-                    <span className="text--lesson">Кодим на C++</span>
-                </div>
+             <div className="row align-items-center row--legend">
+                 <div className="col-auto">
+                    <div className="item--legend"></div>
+                 </div>
+                 <div className="col ps-0 text--legend">
+                 Гуманитарные науки
+                 </div>
+             </div> 
 
-                <div className="other--block">
-                    <span><img src={calculator} alt="" className="img" /></span>
-                    <span className="text--lesson">Изучаем математику</span>
-                </div>
+             <div className="row align-items-center row--legend">
+                 <div className="col-auto">
+                    <div className="item--legend"></div>
+                 </div>
+                 <div className="col ps-0 text--legend">
+                 Гуманитарные науки
+                 </div>
+             </div> 
 
-                <button className="btn--all--lessons">Просмотреть все предметы</button>
             </div>
         </>
     )

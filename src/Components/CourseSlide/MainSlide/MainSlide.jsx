@@ -1,43 +1,63 @@
 import React from 'react';
-import hashtag from "../../../assets/hashtag.svg"
-import calculator from "../../../assets/calculator.svg";
 import "./mainslide.css";
+import ReactECharts from 'echarts-for-react';
+import _ from "lodash";
+
+function MainSlide({courseNumber, program}) {
+    const [arr1, arr2] = program.map(obj => obj.items);
+
+    const categoryWithCount = _.countBy(_.concat(arr1, arr2), 'category');
+    const categoriesName = _.keys(categoryWithCount);
 
 
-function MainSlide({courseNumber, program}){
-    console.log('Изменил в dev')
-    return(
-        <>
-            <div className="wrapper container">
-                <div className="course--number">
-                    <h1>
+    const data = categoriesName.map((name) => {
+        return ({
+            value: categoryWithCount[name],
+            name
+        })
+    })
+    console.log(data);
+
+    const option = {
+        series: [
+            {
+                name: `${courseNumber} курс`,
+                type: 'pie',
+                radius: ['40%', '70%'],
+                avoidLabelOverlap: false,
+                label: {
+                    show: false,
+                    position: 'center'
+                },
+                emphasis: {
+                    label: {
+                        show: true,
+                        fontSize: '20',
+                        fontWeight: 'normal'
+                    }
+                },
+                labelLine: {
+                    show: false
+                },
+                data
+            }
+        ]
+    }
+
+
+    return (
+        <div className="wrapper container">
+            <div className="course--number">
+                <h1>
                     {courseNumber} курс
-                    </h1>
-                </div>
-
-                <div className="first--block">
-                    <span><img src={hashtag} alt="" className="img" /></span>
-                    <span className="text--lesson">Кодим на C++</span>
-                </div>
-
-                <div className="other--block">
-                    <span><img src={calculator} alt="" className="img" /></span>
-                    <span className="text--lesson">Изучаем математику</span>
-                </div>
-
-                <div className="other--block">
-                    <span><img src={hashtag} alt="" className="img" /></span>
-                    <span className="text--lesson">Кодим на C++</span>
-                </div>
-
-                <div className="other--block">
-                    <span><img src={calculator} alt="" className="img" /></span>
-                    <span className="text--lesson">Изучаем математику</span>
-                </div>
-
-                <button className="btn--all--lessons">Просмотреть все предметы</button>
+                </h1>
             </div>
-        </>
+            <div className="chart">
+                <ReactECharts
+                    option={option}
+                />
+            </div>
+        </div>
     )
 }
 

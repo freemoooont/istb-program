@@ -9,12 +9,14 @@ function Page({stateHandler}){
     }, [])
 
     const items = useSelector(({program})=> program.schedule);
+    const isLoaded = useSelector(({program})=> program.isLoaded);
 
     return(
-        <>
-            <div className="App">
+        <div className="App">
+            {
+                isLoaded &&
                 <FullPageWrapper>
-                   <HomeGame/>
+                    <HomeGame/>
                     {
                         items.map((obj, idx) => (
                             <CourseSlide
@@ -24,8 +26,8 @@ function Page({stateHandler}){
                         ))}
                     <FooterSlide/>
                 </FullPageWrapper>
-            </div>
-        </>
+            }
+        </div>
     )
 }
 

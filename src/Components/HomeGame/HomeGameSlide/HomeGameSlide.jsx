@@ -3,9 +3,18 @@ import './homegameslide.css';
 import hand from "../../../assets/hand.svg"
 import burger from "../../../assets/Hamburger 2.svg";
 import all from "../../../assets/vector-all.svg";
+import { useSpring, animated } from 'react-spring'
 
 
 function HomeGameSlide() {
+    const styles = useSpring({
+        loop: true,
+        to: [
+            { opacity: 1, color: '#ffaaee', transform: `translate(0px, -30px)` },
+            { opacity: 0, color: 'rgb(14,26,19)'},
+        ],
+        from: { opacity: 0, color: 'red', transform: `translate(0px, 0px)` },
+    })
     return (
         <>
             <div className="home-wrapper h-100">
@@ -27,7 +36,7 @@ function HomeGameSlide() {
                     </div>
 
                     <div className="hand--icon--wrapper">
-                    <img className="hand--icon" src={hand} />
+                        <animated.img style={styles} className="hand--icon" src={hand}/>
                     </div>
                 </div>
             </div>

@@ -62,8 +62,8 @@ function MainSlide({courseNumber, program}) {
                     </h1>
                 </div>
                 {categoriesName.map(
-                    (name) =>
-                        <div className="row align-items-center row--legend">
+                    (name, idx) =>
+                        <div key={idx} className="row align-items-center row--legend">
                             <div className="col-auto">
                                 <div style={{background: COLORS_MAP[name]}} className="item--legend"/>
                             </div>

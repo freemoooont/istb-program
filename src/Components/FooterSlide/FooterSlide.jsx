@@ -20,9 +20,9 @@ function FooterSlide() {
                             или дистанционно
                         </div>
 
-                        <button class="btn btn--end">Подать документы</button>
+                        <button className="btn btn--end">Подать документы</button>
 
-                        <div className="flex-grow-1"></div>
+                        <div className="flex-grow-1"/>
 
                         <div className="row">
                             <div className="col text-center">

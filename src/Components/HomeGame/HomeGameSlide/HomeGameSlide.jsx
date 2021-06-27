@@ -3,6 +3,7 @@ import './homegameslide.css';
 import hand from "../../../assets/hand.svg"
 import all from "../../../assets/vector-all.svg";
 import { useSpring, animated } from 'react-spring'
+// import {Menu} from "../../index";
 
 
 function HomeGameSlide() {
@@ -34,7 +35,6 @@ function HomeGameSlide() {
                             управлении"
                         </div>
                     </div>
-
 
                     <div className="hand--icon--wrapper">
                         <animated.img style={stickStyles} className="hand--icon" src={hand}/>

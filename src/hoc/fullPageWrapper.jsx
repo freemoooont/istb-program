@@ -11,16 +11,10 @@ export const FullPageWrapper = (props) => {
             controlArrows={false}
             slidesNavigation={'top'}
             dragAndMove
-            // navigationTooltips={anchors}
             verticalCentered={false}
             sectionsColor={["#F8F8F8","#F8F8F8","#F8F8F8","#F8F8F8","#F8F8F8"]}
             onLeave={props.onLeave}
-            // onLeave={(origin, destination, direction) => {
-            //     console.log("onLeave event", {origin, destination, direction});
-            // }}
             render={() => {
-                // console.log("render prop change", state, fullpageApi);
-
                 return (
                     <div>
                         {props.children}

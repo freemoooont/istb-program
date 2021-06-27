@@ -34,8 +34,8 @@ function Page({stateHandler}){
                                     key={idx}
                                     {...obj}
                                 />
-                            ))}
-                        <FooterSlide/>
+                            ))
+                        }<FooterSlide/>
                     </FullPageWrapper>
                 </>
             }

@@ -1,11 +1,11 @@
 import React from 'react';
 import './rightslide.css';
 
-function RightSlide({ subjects }) {
+function RightSlide({semNumber, subjects }) {
     return (
         <div className="wrapper">
             <div className="container">
-                <div className="text--semestr">Семестр</div>
+                <div className="text--semestr">{semNumber} cеместр</div>
                 {
                     subjects.map(
                         (item, idx) => (

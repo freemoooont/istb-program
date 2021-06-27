@@ -6,6 +6,8 @@
     {
       "schedule": [
         {
+          "sem1": 1,
+          "sem2": 2,
           "courseNumber": 1,
           "program": [
             {
@@ -109,6 +111,8 @@
         ]
         },
         {
+          "sem1": 3,
+          "sem2": 4,
           "courseNumber": 2,
           "program": [
             {
@@ -207,6 +211,8 @@
           ]
         },
         {
+          "sem1": 5,
+          "sem2": 6,
           "courseNumber": 3,
           "program": [
             {
@@ -305,6 +311,8 @@
           ]
         },
         {
+          "sem1": 7,
+          "sem2": 8,
           "courseNumber": 4,
           "program": [
             {

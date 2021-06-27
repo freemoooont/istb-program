@@ -3,6 +3,7 @@ import {FullPageWrapper} from "../hoc/fullPageWrapper";
 import {HomeGame, CourseSlide, FooterSlide} from "../Components";
 import {useSelector} from "react-redux";
 
+
 function Page({stateHandler}){
     React.useEffect(()=>{
         stateHandler();

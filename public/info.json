@@ -9,11 +9,12 @@
           "courseNumber": 1,
           "program": [
             {
+              "semester": 1,
               "items": [
                 {
                   "title": "Иностранный язык",
-                  "category": "Гуманитарные науки",
-                  "categoryId": 1
+                  "category": "Иностранный язык",
+                  "categoryId": 6
                 },
                 {
                   "title": "История",
@@ -58,11 +59,12 @@
               ]
             },
             {
+              "semester": 2,
               "items": [
                 {
                   "title": "Иностранный язык",
-                  "category": "Гуманитарные науки",
-                  "categoryId": 1
+                  "category": "Иностранный язык",
+                  "categoryId": 6
                 },
                 {
                   "title": "Философия",
@@ -112,11 +114,12 @@
           "courseNumber": 2,
           "program": [
             {
+              "semester": 3,
               "items": [
                 {
                   "title": "Иностранный язык",
-                  "category": "Гуманитарные науки",
-                  "categoryId": 1
+                  "category": "Иностранный язык",
+                  "categoryId": 6
                 },
                 {
                   "title": "Исследование операций",
@@ -156,11 +159,12 @@
               ]
             },
             {
+              "semester": 4,
               "items": [
                 {
                   "title": "Иностранный язык",
-                  "category": "Гуманитарные науки",
-                  "categoryId": 1
+                  "category": "Иностранный язык",
+                  "categoryId": 6
                 },
                 {
                   "title": "Методы анализа данных",
@@ -210,11 +214,12 @@
           "courseNumber": 3,
           "program": [
             {
+              "semester": 5,
               "items": [
                 {
                   "title": "Иностранный язык",
                   "category": "Гуманитарные науки",
-                  "categoryId": 1
+                  "categoryId": 6
                 },
                 {
                   "title": "Правоведение",
@@ -259,6 +264,7 @@
               ]
             },
             {
+              "semester": 6,
               "items": [
                 {
                   "title": "Теория инф-ных процессов процессов",
@@ -308,6 +314,7 @@
           "courseNumber": 4,
           "program": [
             {
+              "semester": 7,
               "items": [
                 {
                   "title": "Интеллектуальные системы и технологии",
@@ -352,6 +359,7 @@
               ]
             },
             {
+              "semester": 8,
               "items": [
                 {
                   "title": "Подготовка к сдаче и технологии экзамена",

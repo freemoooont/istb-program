@@ -6,14 +6,18 @@
     {
       "schedule": [
         {
+          "sem1": 1,
+          "sem2": 2,
           "courseNumber": 1,
+          "languages": ["C", "Word", "Excel"],
           "program": [
             {
+              "semester": 1,
               "items": [
                 {
                   "title": "Иностранный язык",
-                  "category": "Гуманитарные науки",
-                  "categoryId": 1
+                  "category": "Иностранный язык",
+                  "categoryId": 6
                 },
                 {
                   "title": "История",
@@ -58,11 +62,12 @@
               ]
             },
             {
+              "semester": 2,
               "items": [
                 {
                   "title": "Иностранный язык",
-                  "category": "Гуманитарные науки",
-                  "categoryId": 1
+                  "category": "Иностранный язык",
+                  "categoryId": 6
                 },
                 {
                   "title": "Философия",
@@ -109,14 +114,18 @@
         ]
         },
         {
+          "sem1": 3,
+          "sem2": 4,
           "courseNumber": 2,
+          "languages": ["C#", "Java", "SQL"],
           "program": [
             {
+              "semester": 3,
               "items": [
                 {
                   "title": "Иностранный язык",
-                  "category": "Гуманитарные науки",
-                  "categoryId": 1
+                  "category": "Иностранный язык",
+                  "categoryId": 6
                 },
                 {
                   "title": "Исследование операций",
@@ -156,11 +165,12 @@
               ]
             },
             {
+              "semester": 4,
               "items": [
                 {
                   "title": "Иностранный язык",
-                  "category": "Гуманитарные науки",
-                  "categoryId": 1
+                  "category": "Иностранный язык",
+                  "categoryId": 6
                 },
                 {
                   "title": "Методы анализа данных",
@@ -207,14 +217,18 @@
           ]
         },
         {
+          "sem1": 5,
+          "sem2": 6,
           "courseNumber": 3,
+          "languages": ["PHP", "JavaScript", "Python", "Android"],
           "program": [
             {
+              "semester": 5,
               "items": [
                 {
                   "title": "Иностранный язык",
                   "category": "Гуманитарные науки",
-                  "categoryId": 1
+                  "categoryId": 6
                 },
                 {
                   "title": "Правоведение",
@@ -259,6 +273,7 @@
               ]
             },
             {
+              "semester": 6,
               "items": [
                 {
                   "title": "Теория инф-ных процессов процессов",
@@ -305,9 +320,13 @@
           ]
         },
         {
+          "sem1": 7,
+          "sem2": 8,
           "courseNumber": 4,
+          "languages": ["1C", "UML", "*"],
           "program": [
             {
+              "semester": 7,
               "items": [
                 {
                   "title": "Интеллектуальные системы и технологии",
@@ -352,6 +371,7 @@
               ]
             },
             {
+              "semester": 8,
               "items": [
                 {
                   "title": "Подготовка к сдаче и технологии экзамена",

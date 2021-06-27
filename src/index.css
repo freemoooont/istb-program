@@ -23,3 +23,9 @@ code {
 .fp-slidesNav {
   text-align: center;
 }
+
+.wrapper.container
+{
+    padding-left: 21px;
+    padding-right: 23px;
+}

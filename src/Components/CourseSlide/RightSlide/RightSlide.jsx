@@ -1,52 +1,33 @@
 import React from 'react';
 import './rightslide.css';
+import _ from "lodash";
+import {COLORS_MAP} from "../../../consts";
 
-function RightSlide({ subjects }) {
+function RightSlide({semNumber, subjects }) {
     return (
-        <>
-            <div className="wrapper">
-                <div className="container">
-                    <div className="text--semestr">Семестр</div>
-
-                    <div className="row align-items-center row--subject">
-                        <div className="col-auto">
-                            <div className="col--subject text--subject">
-                                Математика
+        <div className="wrapper container container-common">
+            <div className="text--semestr">{semNumber} семестр</div>
+            {
+                _(subjects).sortBy(x => x.title).map(
+                    (item, idx) => (
+                        <div key={idx} className="row flex-nowrap align-items-center row--subject">
+                            <div className="col-auto pe-0">
+                                <div style={{
+                                    width: "15px",
+                                    height: "15px",
+                                    backgroundColor: COLORS_MAP[item.category],
+                                    borderRadius: "50%"}}></div>
                             </div>
-                        </div>   
-                    </div>
-
-                    <div className="row align-items-center row--subject">
-                        <div className="col-auto">
-                            <div className="col--subject text--subject">
-                                Иностранный язык
+                            <div className="col-auto flex-shrink-1">
+                                <div className="col--subject text--subject"
+                                >
+                                    <span>{item.title}</span>
+                                </div>
                             </div>
-                        </div>   
-                    </div>
-
-                    <div className="row align-items-center row--subject">
-                        <div className="col-auto">
-                            <div className="col--subject text--subject">
-                                Программирование 
-                            </div>
-                        </div>   
-                    </div>
-
-                    
-
-                    <ul>
-                        {
-                            subjects.map(
-                                (item, idx) =>
-                                    <li key={idx} >
-                                        {item.title}
-                                    </li>)
-                        }
-                    </ul>
-                </div>
-
-            </div>
-        </>
+                        </div>
+                    )
+                ).value()}
+        </div>
     )
 }
 

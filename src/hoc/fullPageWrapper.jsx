@@ -14,11 +14,11 @@ export const FullPageWrapper = (props) => {
             // navigationTooltips={anchors}
             verticalCentered={false}
             sectionsColor={["#F8F8F8","#F8F8F8","#F8F8F8","#F8F8F8","#F8F8F8"]}
-            onLeave={(origin, destination, direction) => {
-                console.log("onLeave event", {origin, destination, direction});
-            }}
-            render={({state, fullpageApi}) => {
-                console.log("render prop change", state, fullpageApi);
+            // onLeave={(origin, destination, direction) => {
+            //     console.log("onLeave event", {origin, destination, direction});
+            // }}
+            render={() => {
+                // console.log("render prop change", state, fullpageApi);
 
                 return (
                     <div>

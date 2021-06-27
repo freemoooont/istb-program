@@ -1,0 +1,41 @@
+.text--semestr
+{
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #333333;
+}
+
+.col--subject
+{
+    background: rgb(196,178,240);
+    background: linear-gradient(90deg, rgba(196,178,240,1) 57%, rgba(226,218,248,1) 57%);
+    border-radius: 3px;
+}
+
+.text--subject
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+
+    padding-left: 9px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.row--subject
+{
+    padding-top: 10px;
+}

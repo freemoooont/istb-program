@@ -1,44 +1,60 @@
-.welcome--slide{
-    pointer-events: none;
+.container.container--header
+{
+    padding-left: 21px;
+    padding-right: 23px;
 }
 
 .welcome--header{
-    height: auto;
     position: relative;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 29px 24px;
-    background-color: #FFFFFF;
+    padding-bottom: 49px;
+    padding-top: 49px;
 }
 
-.button__wrapper{
-    background: #FFFFFF;
-    border: 1px solid #333333;
-    box-sizing: border-box;
+.welcome--logo
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: Montserrat;
+    letter-spacing: 0.15em;
 
-    position: relative;
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
+    color: #FFFFFF;
+}
+
+.welcome--info
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #FFFFFF;
+}
+
+.hand--icon--wrapper
+{
+    text-align: center;
     width: 100%;
-    padding: .2vw 2vw .2vw 5vw;
-    margin: 2vw 0;
-    border-radius: 8vw;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 23px;
 }
 
-.button--text{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
+.hand--icon
+{
+    width: 50px;
+    height: 50px;
 }
 
-.button--text img{
-    margin: 0 2vw 0 auto;
-}
-.welcome--content{
-    padding: 5vw;
+.welcome--menu__test{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #859ADE;
+    z-index: 1;
 }

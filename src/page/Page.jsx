@@ -1,6 +1,6 @@
 import React from 'react';
 import {FullPageWrapper} from "../hoc/fullPageWrapper";
-import {HomeGame, CourseSlide} from "../Components";
+import {HomeGame, CourseSlide, FooterSlide} from "../Components";
 import {useSelector} from "react-redux";
 
 function Page({stateHandler}){
@@ -9,12 +9,14 @@ function Page({stateHandler}){
     }, [])
 
     const items = useSelector(({program})=> program.schedule);
+    const isLoaded = useSelector(({program})=> program.isLoaded);
 
     return(
-        <>
-            <div className="App">
+        <div className="App">
+            {
+                isLoaded &&
                 <FullPageWrapper>
-                   <HomeGame/>
+                    <HomeGame/>
                     {
                         items.map((obj, idx) => (
                             <CourseSlide
@@ -22,9 +24,10 @@ function Page({stateHandler}){
                                 {...obj}
                             />
                         ))}
+                    <FooterSlide/>
                 </FullPageWrapper>
-            </div>
-        </>
+            }
+        </div>
     )
 }
 

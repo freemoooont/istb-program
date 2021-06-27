@@ -11,7 +11,7 @@ function FooterSlide() {
         <section className="section">
             <div className="container container-common h-100">
                 <div className="d-flex flex-column align-items-center h-100">
-                    <div className="text--end text-center">
+                    <div className="text--end text-end">
                         Заинтересован? <br/>
                         Тогда подавай <br/>
                         документы <br/>
@@ -20,7 +20,7 @@ function FooterSlide() {
                         или дистанционно
                     </div>
 
-                    <button className="btn btn--end">Подать документы</button>
+                    <a href="https://cis.istu.edu/pub/auth" target="_blank" className="btn btn--end">Подать документы</a>
 
                     <div className="flex-grow-1"/>
 

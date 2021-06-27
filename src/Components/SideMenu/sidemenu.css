@@ -7,6 +7,11 @@
     flex-direction: column;
 }
 
+.container.container-common.sidemenu-container {
+    width: 100px;
+    right: 0;
+}
+
 .sidemenu-wrapper  {
     position: fixed;
     width: 100vw;

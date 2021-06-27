@@ -16,6 +16,15 @@ function HomeGameSlide() {
         from: { opacity: 0, color: 'red', transform: `translate(0px, 0px)` },
     })
 
+    let [logoClickCounter, setLogoClickCounter] = React.useState(0);
+
+    function onLogoClick () {
+        setLogoClickCounter(logoClickCounter + 1);
+        if (logoClickCounter >= 2) {
+            window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=OfficialRickAstley";
+        }
+    }
+
 
     return (
         <>
@@ -23,7 +32,7 @@ function HomeGameSlide() {
                 <img style={{ position: 'absolute', bottom: 0, width: '101%', height: '101%', objectFit: 'cover', zIndex: 0, backgroundColor: "#84CDCA" }} src={all} />
                 <div className="wrapper h-100">
                     <div className="container container-common">
-                        <header className="welcome--header" >
+                        <header className="welcome--header"  onClick={() => onLogoClick()}>
                             <span className="welcome--logo">ИИТИАД</span>
                         </header>
 

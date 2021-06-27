@@ -82,7 +82,7 @@ function MainSlide({languages, courseNumber, program}) {
                                 <div style={{width: "100px"}}
                                     className="d-flex flex-wrap justify-content-center align-items-center">
                                     {languages.map(x =>
-                                        <span className="language-item">{x}</span>
+                                        <span className="language-item" key={x}>{x}</span>
                                     )}
                                 </div>
                         </div>

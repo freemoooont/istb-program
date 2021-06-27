@@ -27,7 +27,7 @@ function HomeGameSlide() {
                             <span className="welcome--logo">ИИТИАД</span>
                         </header>
 
-                        <div className="text-center flex-grow-1  d-flex flex-column justify-content-center">
+                        <div className="text-end flex-grow-1  d-flex flex-column justify-content-center">
                             <div>
                                 <span className="pre-title">поступай в политех на<br/></span>
                                 <span className="title">

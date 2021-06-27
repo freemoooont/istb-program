@@ -34,3 +34,12 @@
 .chart {
     height: 100%;
 }
+
+.language-item {
+    display: inline-block;
+    margin: 1px;
+    padding: 1px 4px;
+    background-color: #ffc800;
+    border-radius: 4px;
+    box-shadow: 0 0 10px #ffc800;
+}

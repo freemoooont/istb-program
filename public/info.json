@@ -9,6 +9,7 @@
           "sem1": 1,
           "sem2": 2,
           "courseNumber": 1,
+          "languages": ["C", "Word", "Excel"],
           "program": [
             {
               "semester": 1,
@@ -116,6 +117,7 @@
           "sem1": 3,
           "sem2": 4,
           "courseNumber": 2,
+          "languages": ["C#", "Java", "SQL"],
           "program": [
             {
               "semester": 3,
@@ -218,6 +220,7 @@
           "sem1": 5,
           "sem2": 6,
           "courseNumber": 3,
+          "languages": ["PHP", "JavaScript", "Python", "Android"],
           "program": [
             {
               "semester": 5,
@@ -320,6 +323,7 @@
           "sem1": 7,
           "sem2": 8,
           "courseNumber": 4,
+          "languages": ["1C", "UML", "*"],
           "program": [
             {
               "semester": 7,

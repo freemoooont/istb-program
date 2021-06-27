@@ -5,7 +5,7 @@ import _ from "lodash";
 import {COLORS_MAP} from "../../../consts";
 
 
-function MainSlide({courseNumber, program}) {
+function MainSlide({languages, courseNumber, program}) {
     const [arr1, arr2] = program.map(obj => obj.items);
 
     const categoryWithCount = _.countBy(_.concat(arr1, arr2), 'category');
@@ -29,11 +29,20 @@ function MainSlide({courseNumber, program}) {
             {
                 name: `${courseNumber} курс`,
                 type: 'pie',
-                radius: ['55%', '80%'],
+                radius: ['45%', '70%'],
                 avoidLabelOverlap: false,
                 label: {
-                    show: false,
-                    position: 'center'
+                    formatter: (params) => {
+                        return `${Math.floor(params.percent)}%`;
+                    },
+                    // show: false,
+                    position: "outside",
+                    overflow: "breakAll"
+                },
+                labelLine: {
+                    showAbove: true,
+                    length: "6px",
+                    length2: "6px",
                 },
                 emphasis: {
                     label: {
@@ -42,9 +51,7 @@ function MainSlide({courseNumber, program}) {
                         fontWeight: 'normal'
                     }
                 },
-                labelLine: {
-                    show: false
-                },
+
                 data
             }
         ]
@@ -71,11 +78,20 @@ function MainSlide({courseNumber, program}) {
                                 </div>
                             </div>
                     )}
-                    <div className="flex-grow-1 d-flex align-items-center">
+                    <div className="flex-grow-1 d-flex align-items-center position-relative">
                         <div className="chart w-100">
                             <ReactECharts className="h-100"
-                                option={option}
+                                          option={option}
                             />
+                        </div>
+                        <div className="position-absolute w-100 d-flex justify-content-center"
+                        >
+                            <div style={{width: "100px"}}
+                                 className="d-flex flex-wrap justify-content-center align-items-center">
+                                {languages.map(x =>
+                                    <span className="language-item">{x}</span>
+                                )}
+                            </div>
                         </div>
                     </div>
                 </div>

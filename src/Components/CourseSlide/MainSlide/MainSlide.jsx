@@ -9,7 +9,7 @@ function MainSlide({languages, courseNumber, program}) {
     const [arr1, arr2] = program.map(obj => obj.items);
 
     const categoryWithCount = _.countBy(_.concat(arr1, arr2), 'category');
-    console.log(categoryWithCount);
+
     const categoriesName = _(categoryWithCount).keys().sortBy(x => -categoryWithCount[x]).value();
 
 
@@ -22,7 +22,6 @@ function MainSlide({languages, courseNumber, program}) {
         })
     })
 
-    console.log(data);
 
     const option = {
         series: [
@@ -88,8 +87,9 @@ function MainSlide({languages, courseNumber, program}) {
                                 </div>
                         </div>
                         <div className="chart w-100">
-                            <ReactECharts className="h-100"
-                                          option={option}
+                            <ReactECharts
+                                className="h-100"
+                                option={option}
                             />
                         </div>
                     </div>

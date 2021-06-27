@@ -22,3 +22,36 @@
     background-color: #859ADE;
     z-index: 1;
 }
+
+.pre-title {
+ font-weight: 700;
+    color: white;
+}
+
+.title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight:900;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 1px;
+
+    color: #FFFFFF;
+ }
+
+
+.title > span:nth-child(1) {
+    background-color: #8bbb29;
+}
+
+.title > span:nth-child(2) {
+    background-color: #c8e239;
+}
+
+.title > span:nth-child(3) {
+    background-color: #dbd237;
+}
+
+.title > span:nth-child(4) {
+    background-color: #fae13e;
+}

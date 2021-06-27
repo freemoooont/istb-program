@@ -22,17 +22,21 @@ function HomeGameSlide() {
             <div className="home-wrapper h-100">
                 <img style={{ position: 'absolute', bottom: 0, width: '101%', height: '101%', objectFit: 'cover', zIndex: 0, backgroundColor: "#84CDCA" }} src={all} />
                 <div className="wrapper h-100">
-                    <div className="container h-100 container--header">
+                    <div className="container container-common">
                         <header className="welcome--header" >
                             <span className="welcome--logo">ИИТИАД</span>
                         </header>
 
-                        <div className="welcome--info">
-                            Поступай на <br />
-                            "Информаци-<br/>-онные <br />
-                            системы и технологии  <br />
-                            в админ.  <br />
-                            управлении"
+                        <div className="text-center flex-grow-1  d-flex flex-column justify-content-center">
+                            <div>
+                                <span className="pre-title">поступай в политех на<br/></span>
+                                <span className="title">
+                                    <span> информаци<span className="d-md-none">-<br/>-</span>онные<br /></span>
+                                    <span>системы и технологии<br /></span>
+                                    <span > в админи<span className="d-md-none">-<br/>-</span>стративном<br /></span>
+                                    <span>управлении</span>
+                                </span>
+                            </div>
                         </div>
                     </div>
 

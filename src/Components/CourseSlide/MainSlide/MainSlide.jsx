@@ -2,15 +2,8 @@ import React from 'react';
 import "./mainslide.css";
 import ReactECharts from 'echarts-for-react';
 import _ from "lodash";
+import {COLORS_MAP} from "../../../consts";
 
-const COLORS_MAP = {
-    "АйТи" : "#ee6666",
-    "Общая подготовка" : "#fac858",
-    "Иностранный язык" : "#ff68aa",
-    "Математика" : "#5470c6",
-    "Гуманитарные науки" : "#91cc75",
-    "Практика" : "#73c0de"
-}
 
 function MainSlide({courseNumber, program}) {
     const [arr1, arr2] = program.map(obj => obj.items);
@@ -36,7 +29,7 @@ function MainSlide({courseNumber, program}) {
             {
                 name: `${courseNumber} курс`,
                 type: 'pie',
-                radius: ['40%', '70%'],
+                radius: ['55%', '80%'],
                 avoidLabelOverlap: false,
                 label: {
                     show: false,
@@ -60,7 +53,7 @@ function MainSlide({courseNumber, program}) {
 
     return (
         <>
-            <div className="wrapper container ">
+            <div className="wrapper container container-common ">
                 <div className="course--number">
                     <h1>
                         {courseNumber} курс

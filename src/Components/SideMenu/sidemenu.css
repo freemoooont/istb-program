@@ -1,7 +1,10 @@
-.container.container--header
+.container.container-common
 {
     padding-left: 21px;
-    padding-right: 23px;
+    padding-right: 21px;
+    height: calc(100% - 80px);
+    display: flex;
+    flex-direction: column;
 }
 
 .sidemenu-wrapper  {
@@ -43,8 +46,13 @@
     position: relative;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 49px;
     padding-top: 49px;
+}
+
+@media (max-width: 320px) {
+    .welcome--header {
+        padding-bottom: 30px;
+    }
 }
 
 
@@ -63,11 +71,5 @@
 
 .welcome--info
 {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 36px;
-    line-height: 44px;
 
-    color: #FFFFFF;
 }

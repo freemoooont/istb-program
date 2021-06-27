@@ -52,7 +52,7 @@ function SideMenu({isTopSlide, isLastSlide}){
                     <span className="sidemenu-wrapper--link" onClick={() => onLinkClicked(6)}> Контакты </span>
                 </animated.div>
 
-                <animated.div className="container h-100 container--header position-absolute w-100" style={menuContainerStyle}>
+                <animated.div className="container container-common position-absolute w-100" style={menuContainerStyle}>
                     <header className="welcome--header justify-content-end" style={{zIndex: 1000}}>
                         <animated.svg
                             onClick={() => setIsOpen(!isOpen)}

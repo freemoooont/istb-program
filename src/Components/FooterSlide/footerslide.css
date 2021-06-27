@@ -12,7 +12,6 @@
     font-weight: bold;
     font-size: 24px;
     text-transform: uppercase;
-    width: 280px;
 
 
     color: #FFFFFF;
@@ -40,11 +39,10 @@
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 8px;
-    line-height: 10px;
+    font-size: 10px;
     align-items: center;
     text-align: center;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 
     color: #FFFFFF;
 }

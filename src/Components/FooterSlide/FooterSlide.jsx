@@ -9,9 +9,9 @@ function FooterSlide() {
     return (
 
         <section className="section">
-            <div className="container h-100">
+            <div className="container container-common h-100">
                 <div className="d-flex flex-column align-items-center h-100">
-                    <div className="text--end">
+                    <div className="text--end text-center">
                         Заинтересован? <br/>
                         Тогда подавай <br/>
                         документы <br/>
@@ -27,7 +27,7 @@ function FooterSlide() {
                     <div className="row">
                         <div className="col text-center">
                             <div className="text-mini">
-                                сайт был разработан за 7 дней в рамках мини-проекта <br/> вот этими людьми:
+                                сайт был разработан за 7 дней в рамках айти-марафона <br/> вот этими людьми:
                             </div>
                         </div>
                     </div>

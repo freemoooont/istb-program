@@ -9,7 +9,7 @@
           "sem1": 1,
           "sem2": 2,
           "courseNumber": 1,
-          "languages": ["C", "Word", "Excel"],
+          "languages": ["C++", "git"],
           "program": [
             {
               "semester": 1,

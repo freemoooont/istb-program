@@ -1,8 +1,8 @@
 import React from 'react';
 import './footerslide.css';
-import N from "../../assets/N.svg";
-import V from "../../assets/V.svg";
-import Nik from "../../assets/Nik.svg";
+import N from "../../assets/N.png";
+import V from "../../assets/V.png";
+import Nik from "../../assets/Nik.png";
 import logo from "../../assets/logo.svg";
 import {useSpring, animated} from "react-spring";
 

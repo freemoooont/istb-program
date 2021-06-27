@@ -9,7 +9,7 @@ function MainSlide({languages, courseNumber, program}) {
     const [arr1, arr2] = program.map(obj => obj.items);
 
     const categoryWithCount = _.countBy(_.concat(arr1, arr2), 'category');
-    console.log(categoryWithCount);
+
     const categoriesName = _(categoryWithCount).keys().sortBy(x => -categoryWithCount[x]).value();
 
 
@@ -22,7 +22,6 @@ function MainSlide({languages, courseNumber, program}) {
         })
     })
 
-    console.log(data);
 
     const option = {
         series: [
@@ -80,16 +79,17 @@ function MainSlide({languages, courseNumber, program}) {
                     )}
                     <div className="flex-grow-1 d-flex align-items-center position-relative">
                         <div className="chart w-100">
-                            <ReactECharts className="h-100"
-                                          option={option}
+                            <ReactECharts
+                                className="h-100"
+                                option={option}
                             />
                         </div>
                         <div className="position-absolute w-100 d-flex justify-content-center"
                         >
                             <div style={{width: "100px"}}
                                  className="d-flex flex-wrap justify-content-center align-items-center">
-                                {languages.map(x =>
-                                    <span className="language-item">{x}</span>
+                                {languages.map((x,idx) =>
+                                    <span key={idx} className="language-item">{x}</span>
                                 )}
                             </div>
                         </div>

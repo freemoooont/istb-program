@@ -36,22 +36,5 @@
     line-height: 48px;
     letter-spacing: 1px;
 
-    color: #FFFFFF;
+    color: white;
  }
-
-
-.title > span:nth-child(1) {
-    background-color: #8bbb29;
-}
-
-.title > span:nth-child(2) {
-    background-color: #c8e239;
-}
-
-.title > span:nth-child(3) {
-    background-color: #dbd237;
-}
-
-.title > span:nth-child(4) {
-    background-color: #fae13e;
-}

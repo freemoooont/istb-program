@@ -29,9 +29,9 @@ function HomeGameSlide() {
 
                         <div className="text-end flex-grow-1  d-flex flex-column justify-content-center">
                             <div>
-                                <span className="pre-title">поступай в политех на<br/></span>
+                                <span className="pre-title">поступай в Иркутский политех на<br/></span>
                                 <span className="title">
-                                    <span> информаци<span className="d-md-none">-<br/>-</span>онные<br /></span>
+                                    <span>Информаци<span className="d-md-none">-<br/>-</span>онные<br /></span>
                                     <span>системы и технологии<br /></span>
                                     <span > в админи<span className="d-md-none">-<br/>-</span>стративном<br /></span>
                                     <span>управлении</span>

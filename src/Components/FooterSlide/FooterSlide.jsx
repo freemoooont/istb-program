@@ -20,29 +20,29 @@ function FooterSlide() {
                         или дистанционно
                     </div>
 
-                    <a href="https://cis.istu.edu/pub/auth" target="_blank" className="btn btn--end">Подать документы</a>
+                    <a href="https://cis.istu.edu/pub/auth" target="_blank" className="btn btn--end">Подать документы <br /> <span className="text-mini--btn">на направление 09.03.02</span></a>
 
                     <div className="flex-grow-1"/>
 
                     <div className="row">
                         <div className="col text-center">
                             <div className="text-mini">
-                                сайт был разработан за 7 дней в рамках айти-марафона <br/> вот этими людьми:
+                                сайт был разработан за 7 дней, при поддержке центра программной инженерии, <br/> вот этими людьми:
                             </div>
                         </div>
                     </div>
 
                     <div className="row justify-content-center">
                         <div className="col--photo d-flex justify-content-between">
-                            <img className="photo" src={Nik}/>
-                            <img className="photo" src={V}/>
-                            <img className="photo" src={N}/>
+                            <a href="https://vk.com/homoboii"><img className="photo" src={Nik}/></a>
+                            <a href="https://vk.com/id305264077"><img className="photo" src={V}/></a>
+                            <a href="https://vk.com/neytllas"><img className="photo" src={N}/></a> 
                         </div>
                     </div>
 
                     <div className="row row--logo align-items-center ">
                         <div className="col-auto logo--text">
-                            DESIGN & PROGRAMMING BY
+                            ДЕШЕВО СЕРДИТО
                         </div>
                         <div className="col ">
                             <img className="photo logo" src={logo}/>

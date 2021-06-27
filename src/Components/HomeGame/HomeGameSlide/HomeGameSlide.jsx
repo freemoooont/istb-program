@@ -3,6 +3,7 @@ import './homegameslide.css';
 import hand from "../../../assets/hand.svg"
 import all from "../../../assets/vector-all.svg";
 import { useSpring, animated } from 'react-spring'
+// import {Menu} from "../../index";
 
 
 function HomeGameSlide() {
@@ -67,7 +68,6 @@ function HomeGameSlide() {
                             управлении"
                         </div>
                     </div>
-
                     {/*Вот здесь блок с меню, который надо воткнуть нормально*/}
                     <animated.div
                         style={{ transform: x.interpolate(x => `translate3d(${x* -1}%, 0, 0)`)}}

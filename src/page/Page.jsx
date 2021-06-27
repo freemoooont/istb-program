@@ -23,7 +23,8 @@ function Page({stateHandler}){
                                 key={idx}
                                 {...obj}
                             />
-                        ))}
+                        ))
+                    }
                     <FooterSlide/>
                 </FullPageWrapper>
             }

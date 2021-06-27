@@ -14,10 +14,7 @@
 
 .col--subject
 {
-    background: rgb(196,178,240);
-    background: linear-gradient(90deg, rgba(196,178,240,1) 57%, rgba(226,218,248,1) 57%);
     border-radius: 3px;
-
 }
 
 
@@ -29,8 +26,7 @@
     font-size: 14px;
     line-height: 17px;
 
-    color: #ffffff;
-    text-shadow: 0 0 12px #000000;
+    color: #212529;
 
     padding-left: 9px;
     padding-right: 15px;

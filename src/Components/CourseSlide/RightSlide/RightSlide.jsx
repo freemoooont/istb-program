@@ -19,7 +19,8 @@ function RightSlide({semNumber, subjects }) {
                                     borderRadius: "50%"}}></div>
                             </div>
                             <div className="col-auto flex-shrink-1">
-                                <div className="col--subject text--subject">
+                                <div className="col--subject text--subject"
+                                >
                                     <span>{item.title}</span>
                                 </div>
                             </div>

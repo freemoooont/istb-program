@@ -4,6 +4,7 @@ import {HomeGame, CourseSlide, FooterSlide} from "../Components";
 import {useSelector} from "react-redux";
 import SideMenu from "../Components/SideMenu/SideMenu";
 
+
 function Page({stateHandler}){
     React.useEffect(()=>{
         stateHandler();

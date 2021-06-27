@@ -9,10 +9,10 @@ function CourseSlide(props){
                 <MainSlide {...props}/>
             </div>
             <div className="slide">
-                <RightSlide semester={props.program[0].semester} subjects={props.program[0].items}/>
+                <RightSlide semNumber={props.sem1} subjects={props.program[0].items}/>
             </div>
             <div className="slide">
-                <RightSlide semester={props.program[1].semester}  subjects={props.program[1].items}/>
+                <RightSlide semNumber={props.sem2} subjects={props.program[1].items}/>
             </div>
         </section>
     )

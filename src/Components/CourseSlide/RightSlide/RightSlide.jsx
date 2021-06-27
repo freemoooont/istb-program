@@ -3,10 +3,10 @@ import './rightslide.css';
 import _ from "lodash";
 import {COLORS_MAP} from "../../../consts";
 
-function RightSlide({semester, subjects }) {
+function RightSlide({semNumber, subjects }) {
     return (
         <div className="wrapper container container-common">
-            <div className="text--semestr">{semester} семестр</div>
+            <div className="text--semestr">{semNumber} семестр</div>
             {
                 _(subjects).sortBy(x => x.title).map(
                     (item, idx) => (

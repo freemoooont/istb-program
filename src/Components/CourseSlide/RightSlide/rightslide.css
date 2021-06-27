@@ -12,14 +12,6 @@
     color: #333333;
 }
 
-.col--subject
-{
-    background: rgb(196,178,240);
-    background: linear-gradient(90deg, rgba(196,178,240,1) 57%, rgba(226,218,248,1) 57%);
-    border-radius: 3px;
-
-}
-
 
 .text--subject
 {

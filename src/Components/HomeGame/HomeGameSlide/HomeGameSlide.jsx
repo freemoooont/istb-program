@@ -3,7 +3,6 @@ import './homegameslide.css';
 import hand from "../../../assets/hand.svg"
 import all from "../../../assets/vector-all.svg";
 import { useSpring, animated } from 'react-spring'
-// import {Menu} from "../../index";
 
 
 function HomeGameSlide() {

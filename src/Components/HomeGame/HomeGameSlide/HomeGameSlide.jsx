@@ -44,6 +44,7 @@ function HomeGameSlide() {
                                     <span>системы и технологии<br /></span>
                                     <span > в админи<span className="d-md-none">-<br/>-</span>стративном<br /></span>
                                     <span>управлении</span>
+                                    <small><br/>специальность 09.03.02</small>
                                 </span>
                             </div>
                         </div>

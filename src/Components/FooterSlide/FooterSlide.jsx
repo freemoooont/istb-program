@@ -42,7 +42,7 @@ function FooterSlide() {
                                 сайт был разработан при поддержке&nbsp;
                                 <a href="http://www.istu.edu/deyatelnost/obrazovanie/instituty/iit/cpi/default" target="_blank">
                                     центра программной инженерии ИрНИТУ
-                                </a>, командой :
+                                </a>, командой:
                             </div>
                         </div>
                     </div>

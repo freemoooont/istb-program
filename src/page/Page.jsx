@@ -5,13 +5,13 @@ import {useSelector} from "react-redux";
 import SideMenu from "../Components/SideMenu/SideMenu";
 
 
-function Page({stateHandler}){
-    React.useEffect(()=>{
+function Page({stateHandler}) {
+    React.useEffect(() => {
         stateHandler();
     }, [])
 
-    const items = useSelector(({program})=> program.schedule);
-    const isLoaded = useSelector(({program})=> program.isLoaded);
+    const items = useSelector(({program}) => program.schedule);
+    const isLoaded = useSelector(({program}) => program.isLoaded);
 
     const [isTopSlide, setIsTopSlide] = React.useState(true);
     const [isLastSlide, setIsLastSlide] = React.useState(false);
@@ -21,12 +21,12 @@ function Page({stateHandler}){
         setIsLastSlide(destination.index === 5);
     }
 
-    return(
+    return (
         <div className="App">
             {
                 isLoaded &&
                 <>
-                    <SideMenu isTopSlide={isTopSlide} isLastSlide={isLastSlide} />
+                    <SideMenu isTopSlide={isTopSlide} isLastSlide={isLastSlide}/>
                     <FullPageWrapper onLeave={onLeave}>
                         <HomeGame/>
                         {
@@ -36,7 +36,8 @@ function Page({stateHandler}){
                                     {...obj}
                                 />
                             ))
-                        }<FooterSlide/>
+                        }
+                        <FooterSlide/>
                     </FullPageWrapper>
                 </>
             }

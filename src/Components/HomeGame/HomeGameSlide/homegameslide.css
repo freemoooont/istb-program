@@ -6,7 +6,7 @@
     width: 100%;
     position: absolute;
     bottom: 0;
-    margin-bottom: 23px;
+    margin-bottom: 5px;
 }
 
 .hand--icon
@@ -24,7 +24,7 @@
 }
 
 .pre-title {
- font-weight: 700;
+    font-weight: 700;
     color: white;
 }
 
@@ -33,8 +33,14 @@
     font-style: normal;
     font-weight:900;
     font-size: 36px;
-    line-height: 48px;
+    line-height: 40px;
     letter-spacing: 1px;
 
     color: white;
  }
+
+.title small {
+    font-weight:700;
+    font-size: 17px;
+    line-height: 12px;
+}

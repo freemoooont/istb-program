@@ -3,7 +3,6 @@ import './homegameslide.css';
 import hand from "../../../assets/hand.svg"
 import all from "../../../assets/vector-all.svg";
 import { useSpring, animated } from 'react-spring'
-// import {Menu} from "../../index";
 
 
 function HomeGameSlide() {
@@ -16,6 +15,15 @@ function HomeGameSlide() {
         from: { opacity: 0, color: 'red', transform: `translate(0px, 0px)` },
     })
 
+    let [logoClickCounter, setLogoClickCounter] = React.useState(0);
+
+    function onLogoClick () {
+        setLogoClickCounter(logoClickCounter + 1);
+        if (logoClickCounter >= 2) {
+            window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=OfficialRickAstley";
+        }
+    }
+
 
     return (
         <>
@@ -23,18 +31,19 @@ function HomeGameSlide() {
                 <img style={{ position: 'absolute', bottom: 0, width: '101%', height: '101%', objectFit: 'cover', zIndex: 0, backgroundColor: "#84CDCA" }} src={all} />
                 <div className="wrapper h-100">
                     <div className="container container-common">
-                        <header className="welcome--header" >
+                        <header className="welcome--header"  onClick={() => onLogoClick()}>
                             <span className="welcome--logo">ИИТИАД</span>
                         </header>
 
                         <div className="text-end flex-grow-1  d-flex flex-column justify-content-center">
                             <div>
-                                <span className="pre-title">поступай в политех на<br/></span>
+                                <span className="pre-title">поступай в Иркутский политех на<br/></span>
                                 <span className="title">
-                                    <span> информаци<span className="d-md-none">-<br/>-</span>онные<br /></span>
+                                    <span>Информаци<span className="d-md-none">-<br/>-</span>онные<br /></span>
                                     <span>системы и технологии<br /></span>
                                     <span > в админи<span className="d-md-none">-<br/>-</span>стративном<br /></span>
                                     <span>управлении</span>
+                                    <small><br/>специальность 09.03.02</small>
                                 </span>
                             </div>
                         </div>

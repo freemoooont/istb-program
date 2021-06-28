@@ -78,20 +78,19 @@ function MainSlide({languages, courseNumber, program}) {
                             </div>
                     )}
                     <div className="flex-grow-1 d-flex align-items-center position-relative">
+                        <div className="position-absolute w-100 d-flex justify-content-center">
+                                <div style={{width: "100px"}}
+                                    className="d-flex flex-wrap justify-content-center align-items-center">
+                                    {languages.map(x =>
+                                        <span className="language-item" key={x}>{x}</span>
+                                    )}
+                                </div>
+                        </div>
                         <div className="chart w-100">
                             <ReactECharts
                                 className="h-100"
                                 option={option}
                             />
-                        </div>
-                        <div className="position-absolute w-100 d-flex justify-content-center"
-                        >
-                            <div style={{width: "100px"}}
-                                 className="d-flex flex-wrap justify-content-center align-items-center">
-                                {languages.map((x,idx) =>
-                                    <span key={idx} className="language-item">{x}</span>
-                                )}
-                            </div>
                         </div>
                     </div>
                 </div>

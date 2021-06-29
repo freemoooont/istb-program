@@ -51,6 +51,30 @@
     color: #859ADE;
 }
 
+.btn.btn--end--two
+{
+    width: 180px;
+    height: 30px;
+
+    margin-top: 15px;
+
+    flex-direction: column;
+
+    background: #FFFFFF;
+    border-radius: 25px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #859ADE;
+}
+
 .text-mini
 {
     font-family: Montserrat;

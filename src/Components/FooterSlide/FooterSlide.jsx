@@ -57,7 +57,7 @@ function FooterSlide() {
 
                     <div className="row row--logo align-items-center ">
                         <div className="col-auto logo--text">
-                            ДЕШЕВО СЕРДИТО
+                            ДИЗАЙН И <br/> РАЗРАБОТКА
                         </div>
                         <div className="col">
                             <animated.img className="photo logo"

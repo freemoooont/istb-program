@@ -17,47 +17,56 @@
                 {
                   "title": "Иностранный язык",
                   "category": "Иностранный язык",
-                  "categoryId": 6
+                  "categoryId": 6,
+                  "count": 3
                 },
                 {
                   "title": "История",
                   "category": "Гуманитарные науки",
-                  "categoryId": 1
+                  "categoryId": 1,
+                  "count": 4
                 },
                 {
                   "title": "Основы деловой коммуникации",
                   "category": "Гуманитарные науки",
-                  "categoryId": 1
+                  "categoryId": 1,
+                  "count": 2
                 },
                 {
                   "title": "Математика",
                   "category": "Математика",
-                  "categoryId": 3
+                  "categoryId": 3,
+                  "count": 4
                 },
                 {
                   "title": "Инженерная графика",
                   "category": "Общая подготовка",
-                  "categoryId": 2
+                  "categoryId": 2,
+                  "count": 3
                 },
                 {
                   "title": "Физика",
                   "category": "Общая подготовка",
-                  "categoryId": 2
+                  "categoryId": 2,
+                  "count": 3
                 },
                 {
                   "title": "Введение в профессиональную деятельность",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 3
                 },
                 {
                   "title": "Информатика",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 3
                 },
                 {
                   "title": "Программирование на языке высокого уровня",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 5
                 }
               ]
             },
@@ -67,48 +76,57 @@
                 {
                   "title": "Иностранный язык",
                   "category": "Иностранный язык",
-                  "categoryId": 6
-                },
-                {
-                  "title": "Философия",
-                  "category": "Гуманитарные науки",
-                  "categoryId": 1
+                  "categoryId": 6,
+                  "count": 3
                 },
                 {
                   "title": "Экономика",
                   "category": "Гуманитарные науки",
-                  "categoryId": 1
+                  "categoryId": 1,
+                  "count": 2
                 },
                 {
                   "title": "Математика",
                   "category": "Математика",
-                  "categoryId": 3
+                  "categoryId": 3,
+                  "count": 4
                 },
                 {
                   "title": "Теория вероятностей и математическая статистика",
                   "category": "Математика",
-                  "categoryId": 3
+                  "categoryId": 3,
+                  "count": 4
                 },
                 {
                   "title": "Физика",
                   "category": "Общая подготовка",
-                  "categoryId": 2
+                  "categoryId": 2,
+                  "count": 5
                 },
                 {
                   "title": "Информатика",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 3
                 },
                 {
                   "title": "Програм. на языке высокого уровня",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 3
                 },
                 {
                   "title": "Учебная практика",
                   "category": "Практика",
-                  "categoryId": 5
-                }
+                  "categoryId": 5,
+                  "count": 3
+                },
+                {
+                  "title": "Основы инклюзивного взаимодействия",
+                  "category":"Гуманитарные науки",
+                  "categoryId":1,
+                  "count": 1
+              }
               ]
             }
         ]
@@ -125,42 +143,56 @@
                 {
                   "title": "Иностранный язык",
                   "category": "Иностранный язык",
-                  "categoryId": 6
+                  "categoryId": 6,
+                  "count": 2
                 },
                 {
                   "title": "Исследование операций",
                   "category": "Математика",
-                  "categoryId": 3
+                  "categoryId": 3,
+                  "count": 3
                 },
                 {
                   "title": "Мат.логика и теория алгоритмов",
                   "category": "Математика",
-                  "categoryId": 3
+                  "categoryId": 3,
+                  "count": 3
                 },
                 {
                   "title": "Дискретная математика",
                   "category": "Математика",
-                  "categoryId": 3
+                  "categoryId": 3,
+                  "count": 3
                 },
                 {
                   "title": "Компьютерная графика",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 4
                 },
                 {
                   "title": "Архитектура ЭВМ и систем",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 4
                 },
                 {
                   "title": "Технологии программирования",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 5
                 },
                 {
                   "title": "Объектн.-ориен программиров.",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 2
+                },
+                {
+                  "title": "Критическое и системное мышление",
+                  "category":"Гуманитарные науки",
+                  "categoryId": 1,
+                  "count": 1
                 }
               ]
             },
@@ -170,47 +202,56 @@
                 {
                   "title": "Иностранный язык",
                   "category": "Иностранный язык",
-                  "categoryId": 6
+                  "categoryId": 6,
+                  "count": 2
                 },
                 {
                   "title": "Методы анализа данных",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 4
                 },
                 {
                   "title": "Анализ бизнес - процессов",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 4
                 },
                 {
                   "title": "Моделирование процессов и систем",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 5
                 },
                 {
                   "title": "Управление данными",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 3
                 },
                 {
                   "title": "Операционные системы",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 3
                 },
                 {
                   "title": "Объектно-ориентированное программирование",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 4
                 },
                 {
                   "title": "Основы проектной деятельности",
                   "category": "Общая подготовка",
-                  "categoryId": 2
+                  "categoryId": 2,
+                  "count": 2
                 },
                 {
                   "title": "Производственная практика: технологическая (проектно-технологическая) практика",
                   "category": "Практика",
-                  "categoryId": 5
+                  "categoryId": 5,
+                  "count": 6
                 }
               ]
             }
@@ -227,48 +268,57 @@
               "items": [
                 {
                   "title": "Иностранный язык",
-                  "category": "Гуманитарные науки",
-                  "categoryId": 6
+                  "category": "Иностранный язык",
+                  "categoryId": 6,
+                  "count": 3
                 },
                 {
                   "title": "Правоведение",
                   "category": "Гуманитарные науки",
-                  "categoryId": 1
+                  "categoryId": 1,
+                  "count": 2
                 },
                 {
                   "title": "Нейросетевые технологии",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 4
                 },
                 {
                   "title": "Инструмента льные средства ИС",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 3
                 },
                 {
                   "title": "Архитектура информационных систем",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 3
                 },
                 {
                   "title": "Инфокоммуникационные системы и сети",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 4
                 },
                 {
                   "title": "Управление данными",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 2
                 },
                 {
                   "title": "Web-программирование",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 4
                 },
                 {
                   "title": "Проектная деятельность",
                   "category": "Практика",
-                  "categoryId": 5
+                  "categoryId": 5,
+                  "count": 2
                 }
               ]
             },
@@ -278,42 +328,56 @@
                 {
                   "title": "Теория инф-ных процессов процессов",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 3
+                },
+                {
+                  "title": "Философия",
+                  "category": "Гуманитарные науки",
+                  "categoryId": 1,
+                  "count": 3
                 },
                 {
                   "title": "Основы информационной безопасности",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 4
                 },
                 {
                   "title": "Технологии разработки программных комплексов",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 6
                 },
                 {
                   "title": "Распределенные вычисления/Технология блокчейн",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 4
                 },
                 {
                   "title": "Технологическое предпринимательство",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 3
                 },
                 {
                   "title": "Разработка мобильных приложений",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 3
                 },
                 {
                   "title": "Проектная деятельность",
                   "category": "Практика",
-                  "categoryId": 5
+                  "categoryId": 5,
+                  "count": 2
                 },
                 {
                   "title": "Производственная практика : научно-исследовательская работа",
                   "category": "Практика",
-                  "categoryId": 5
+                  "categoryId": 5,
+                  "count": 6
                 }
               ]
             }
@@ -331,42 +395,50 @@
                 {
                   "title": "Интеллектуальные системы и технологии",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 5
                 },
                 {
                   "title": "Основы систем поддержки принятия решений",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 5
                 },
                 {
                   "title": "Проектирование информационных систем",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 5
                 },
                 {
                   "title": "Управление проектами",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 5
                 },
                 {
                   "title": "Гибкие методологии реализации проектов",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 3
                 },
                 {
                   "title": "Корпоративные информационные системы",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 3
                 },
                 {
                   "title": "Мониторинг безопасности ИС",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 2
                 },
                 {
                   "title": "Проектная деятельность",
                   "category": "Практика",
-                  "categoryId": 5
+                  "categoryId": 5,
+                  "count": 2
                 }
               ]
             },
@@ -374,49 +446,58 @@
               "semester": 8,
               "items": [
                 {
-                  "title": "Подготовка к сдаче и технологии экзамена",
-                  "category": "Гуманитарные науки",
-                  "categoryId": 1
+                  "title": "Подготовка к сдаче квалификационного экзамена по английскому языку",
+                  "category": "Иностранный язык",
+                  "categoryId": 1,
+                  "count": 3
                 },
                 {
                   "title": "БЖД",
                   "category": "Гуманитарные науки",
-                  "categoryId": 1
+                  "categoryId": 1,
+                  "count": 3
                 },
                 {
                   "title": "Надежность ИС",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 3
                 },
                 {
                   "title": "Администрирование ИС",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 3
                 },
                 {
-                  "title": "1С",
+                  "title": "Конфигурирование системы 1С Предприятие",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 3
                 },
                 {
                   "title": "Мониторинг безопасности ИС",
                   "category": "АйТи",
-                  "categoryId": 4
+                  "categoryId": 4,
+                  "count": 3
                 },
                 {
                   "title": "Проектная деятельность",
                   "category": "Практика",
-                  "categoryId": 5
+                  "categoryId": 5,
+                  "count": 2
                 },
                 {
                   "title": "Преддипломная практика",
                   "category": "Практика",
-                  "categoryId": 5
+                  "categoryId": 5,
+                  "count": 6
                 },
                 {
                   "title": "Выпускная квалификационная работа",
                   "category": "Практика",
-                  "categoryId": 5
+                  "categoryId": 5,
+                  "count": 9
                 }
               ]
             }

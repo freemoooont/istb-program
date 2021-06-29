@@ -34,6 +34,8 @@ function FooterSlide() {
                     <a href="https://cis.istu.edu/pub/auth" target="_blank" className="btn btn--end">Подать
                         документы <br/> <span className="text-mini--btn">на направление 09.03.02</span></a>
 
+                        <a href="mailto:arshinskyv@istu.edu" target="_blank" className="btn btn--end--two" >Задать вопрос руководителю</a>
+
                     <div className="flex-grow-1"/>
 
                     <div className="row">
@@ -57,7 +59,7 @@ function FooterSlide() {
 
                     <div className="row row--logo align-items-center ">
                         <div className="col-auto logo--text">
-                            ДИЗАЙН И <br/> РАЗРАБОТКА
+                            РАСШИРЯЯ ГРАНИЦЫ
                         </div>
                         <div className="col">
                             <animated.img className="photo logo"

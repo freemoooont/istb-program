@@ -1,0 +1,38 @@
+.section.work--practice--slide
+{
+    background-color: #F8F8F8;
+}
+
+.title--work
+{
+    margin-top: 30px;
+    margin-bottom: 25px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #333333;
+
+    text-align: center;
+}
+
+.object
+{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #73C0DE;
+}
+
+.work--text
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #212529;
+}

@@ -207,8 +207,8 @@
                 },
                 {
                   "title": "Методы анализа данных",
-                  "category": "АйТи",
-                  "categoryId": 4,
+                  "category": "Искусственный интелект",
+                  "categoryId": 7,
                   "count": 4
                 },
                 {
@@ -280,8 +280,8 @@
                 },
                 {
                   "title": "Нейросетевые технологии",
-                  "category": "АйТи",
-                  "categoryId": 4,
+                  "category": "Искусственный интелект",
+                  "categoryId": 7,
                   "count": 4
                 },
                 {
@@ -327,8 +327,8 @@
               "items": [
                 {
                   "title": "Теория инф-ных процессов процессов",
-                  "category": "АйТи",
-                  "categoryId": 4,
+                  "category": "Искусственный интелект",
+                  "categoryId": 7,
                   "count": 3
                 },
                 {
@@ -394,14 +394,14 @@
               "items": [
                 {
                   "title": "Интеллектуальные системы и технологии",
-                  "category": "АйТи",
-                  "categoryId": 4,
+                  "category": "Искусственный интелект",
+                  "categoryId": 7,
                   "count": 5
                 },
                 {
                   "title": "Основы систем поддержки принятия решений",
-                  "category": "АйТи",
-                  "categoryId": 4,
+                  "category": "Искусственный интелект",
+                  "categoryId": 7,
                   "count": 5
                 },
                 {

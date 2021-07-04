@@ -3,9 +3,11 @@ import './homegameslide.css';
 import hand from "../../../assets/hand.svg"
 import all from "../../../assets/vector-all.svg";
 import { useSpring, animated } from 'react-spring'
-
+// подключение библиотек и картинок
 
 function HomeGameSlide() {
+
+    // для вращения лого
     const stickStyles = useSpring({
         loop: true,
         to: [
@@ -17,6 +19,7 @@ function HomeGameSlide() {
 
     let [logoClickCounter, setLogoClickCounter] = React.useState(0);
 
+    // при двойном нажатии открывается ссылка 
     function onLogoClick () {
         setLogoClickCounter(logoClickCounter + 1);
         if (logoClickCounter >= 2) {
@@ -24,6 +27,7 @@ function HomeGameSlide() {
         }
     }
 
+    //главный слайд 
 
     return (
         <>
@@ -32,7 +36,7 @@ function HomeGameSlide() {
                 <div className="wrapper h-100">
                     <div className="container container-common">
                         <header className="welcome--header"  onClick={() => onLogoClick()}>
-                            <span className="welcome--logo">ИИТИАД</span>
+                            <a className="welcome--logo--href" href="https://www.istu.edu/deyatelnost/obrazovanie/instituty/iit/"><span className="welcome--logo">ИИТИАД</span></a>  
                         </header>
 
                         <div className="text-end flex-grow-1  d-flex flex-column justify-content-center">

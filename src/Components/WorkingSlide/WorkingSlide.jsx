@@ -3,11 +3,16 @@ import './workingslide.css';
 
 function WorkingSlide() 
 {
-    return 
-    (
-        <>
-        <h1>test</h1>
-        </>
+    return (
+        <section className="section work--practice--slide">
+            <div className="wrapper container container-common">
+                    <div className="title--work">
+                        <h1>
+                            Кем работают наши выпускники
+                        </h1>
+                    </div>    
+            </div>
+        </section>
     )
 }
 

@@ -13,12 +13,19 @@ function Page({stateHandler}) {
     const items = useSelector(({program}) => program.schedule);
     const isLoaded = useSelector(({program}) => program.isLoaded);
 
+    //объявление переменных состояния
+
     const [isTopSlide, setIsTopSlide] = React.useState(true);
     const [isLastSlide, setIsLastSlide] = React.useState(false);
 
+    const [isPracticeSlide, setIsPracticeSlide] = React.useState(false);
+    const [isWorkingSlide, setIsWorkingSlide] = React.useState(false);
+
     function onLeave(origin, destination, direction) {
         setIsTopSlide(destination.index === 0);
-        setIsLastSlide(destination.index === 5);
+        setIsLastSlide(destination.index === 7);
+        setIsPracticeSlide(destination.index === 5);
+        setIsWorkingSlide(destination.index === 6);
     }
 
     return (
@@ -26,7 +33,7 @@ function Page({stateHandler}) {
             {
                 isLoaded &&
                 <>
-                    <SideMenu isTopSlide={isTopSlide} isLastSlide={isLastSlide}/>
+                    <SideMenu isTopSlide={isTopSlide} isLastSlide={isLastSlide} isPracticeSlide={isPracticeSlide} isWorkingSlide={isWorkingSlide}/>
                     <FullPageWrapper onLeave={onLeave}>
                         <HomeGame/>
                         {

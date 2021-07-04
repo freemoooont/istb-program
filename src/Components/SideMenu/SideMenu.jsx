@@ -2,7 +2,7 @@ import React from "react";
 import './sidemenu.css';
 import {animated, useSpring} from "react-spring";
 
-function SideMenu({isTopSlide, isLastSlide}){
+function SideMenu({isTopSlide, isLastSlide, isPracticeSlide, isWorkingSlide}){
 
     const [isOpen, setIsOpen] = React.useState(false);
 
@@ -27,11 +27,11 @@ function SideMenu({isTopSlide, isLastSlide}){
     })
 
     const { fill } = useSpring({
-        fill: (isTopSlide || isLastSlide || isOpen) ? "#fafafa" : "#000000"
+        fill: (isTopSlide || isLastSlide  || isOpen) ? "#fafafa" : "#000000"
     });
 
     const menuContainerStyle = useSpring({
-        opacity: isLastSlide ? '0%' : "100%"
+        opacity: isLastSlide || isPracticeSlide || isWorkingSlide ? '0%' : "100%"
     })
 
     function onLinkClicked (index) {
@@ -49,7 +49,7 @@ function SideMenu({isTopSlide, isLastSlide}){
                     <span className="sidemenu-wrapper--link" onClick={() => onLinkClicked(3)}> 2 курс </span>
                     <span className="sidemenu-wrapper--link" onClick={() => onLinkClicked(4)}> 3 курс </span>
                     <span className="sidemenu-wrapper--link" onClick={() => onLinkClicked(5)}> 4 курс </span>
-                    <span className="sidemenu-wrapper--link" onClick={() => onLinkClicked(6)}> Контакты </span>
+                    <span className="sidemenu-wrapper--link" onClick={() => onLinkClicked(8)}> Контакты </span>
                 </animated.div>
 
                 <animated.div className="container container-common sidemenu-container position-absolute" style={menuContainerStyle}>

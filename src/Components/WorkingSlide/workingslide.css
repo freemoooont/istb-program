@@ -18,3 +18,21 @@
 
     text-align: center;
 }
+
+.object
+{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #73C0DE;
+}
+
+.work--text
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #212529;
+}

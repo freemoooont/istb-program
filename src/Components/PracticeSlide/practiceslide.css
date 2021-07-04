@@ -1,3 +1,4 @@
+  
 .section.work--practice--slide
 {
     background-color: #F8F8F8;
@@ -17,4 +18,14 @@
     color: #333333;
 
     text-align: center;
+}
+
+.row.row--logo--company
+{
+    margin-bottom: 25px;
+}
+
+.company--logo
+{
+    max-width: 100%;
 }

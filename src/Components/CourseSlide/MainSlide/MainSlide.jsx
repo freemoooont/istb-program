@@ -17,7 +17,7 @@ function MainSlide({languages, courseNumber, program}) {
         return ({
             itemStyle: {color: COLORS_MAP[name]},
             value: categoryWithCount[name],
-            selected: name === "АйТи",
+            selected: name === "Программная разработка",
             name,
         })
     })

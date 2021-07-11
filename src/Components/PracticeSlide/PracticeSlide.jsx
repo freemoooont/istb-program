@@ -26,57 +26,51 @@ function PracticeSlide()
 
                 <div className="container">
                         <div className="row row--logo--company justify-content-center mt-3 ml-3">
-                            <div className="col-4">
+                            <div className="col-4 col-md-4 col-lg-2">
                                 <img className="company--logo" src={yan}/> 
                             </div>
 
-                            <div className="col-4">
+                            <div className="col-4 col-md-4 col-lg-2">
                                 <img className="company--logo" src={vds}/> 
                             </div>
 
-                            <div className="col-4">
+                            <div className="col-4 col-md-4 col-lg-2">
                                 <img className="company--logo" src={sber}/>
                             </div> 
-                        </div> 
-
-                        <div className="row row--logo--company justify-content-center mt-3 ml-3">
-                            <div className="col-4">
+                    
+                            <div className="col-4 col-md-4 col-lg-2">
                                  <img className="company--logo" src={krok}/>
                             </div>
 
-                            <div className="col-4">
+                            <div className="col-4 col-md-4 col-lg-2">
                                  <img className="company--logo" src={en}/>
                             </div>
 
-                            <div className="col-4">
+                            <div className="col-4 col-md-4 col-lg-2">
                                  <img className="company--logo" src={isp}/>
                             </div>
-                        </div>
 
-                        <div className="row row--logo--company justify-content-center mt-3 ml-3">
-                            <div className="col-4">
+                            <div className="col-4 col-md-4 col-lg-2 mt-3">
                                  <img className="company--logo" src={irkut}/>
                             </div>
 
-                            <div className="col-4">
+                            <div className="col-4 col-md-4 col-lg-2 mt-3">
                                  <img className="company--logo" src={gaz}/>
                             </div>
 
-                            <div className="col-4">
+                            <div className="col-4 col-md-4 col-lg-2 mt-3">
                                  <img className="company--logo" src={forus}/>
                             </div>
-                        </div>
 
-                         <div className="row row--logo--company justify-content-center mt-3 ml-3">
-                            <div className="col-4">
+                            <div className="col-4 col-md-4 col-lg-2 mt-3">
                                  <img className="company--logo" src={mts}/>
                             </div>
 
-                            <div className="col-4">
+                            <div className="col-4 col-md-4 col-lg-2 mt-3">
                                  <img className="company--logo" src={tele}/>
                             </div>
 
-                            <div className="col-4">
+                            <div className="col-4 col-md-4 col-lg-2 mt-3">
                                  <img className="company--logo" src={adikt}/>
                             </div>  
                         </div>  
